@@ -19,6 +19,37 @@
 
 </head>
 <body class="nd-docs">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">CS 7150 Project</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#literature-review">Literature Review <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#author-biographies">Authors' Backgrounds</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#diagram-section">Diagrams</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#social-impact">Societal Impact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#industry-app">Industry Appliction</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#followup">Followup-Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#references">References</a>
+        </li>
+        </ul>
+    </div>
+</nav>
 <div class="nd-pageheader">
  <div class="container">
  <h1 class="lead">
@@ -39,7 +70,7 @@
 <div class="row">
 <div class="col">
 
-<div class="literature-review">
+<div id="literature-review" class="content-section">
     <h3>Literature Review</h3>
     <p><strong>Preceding Works:</strong></p>
     <ul>
@@ -59,7 +90,7 @@
 
 
 
-<div class="author-biographies">
+<div id="author-biographies" class="content-section">
   <h3>Authors' Backgrounds and Motivations</h3>
 
   <div class="author-container">
@@ -97,7 +128,7 @@
 </div>
 
 
-<div class="diagram-section">
+<div id="diagram-section" class="content-section">
   <h3>Diagrams</h3>
   <div class="diagram">
       <img src="vit_architecture.jpg" alt="Diagram 1" class="diagram-image">
@@ -118,7 +149,7 @@
 </div>
 
 
-<div class="social-impact">
+<div id="social-impact" class="content-section">
   <h3>Societal Impact of Transformers in Image Recognition</h3>
 
   <h4>Positive Impacts:</h4>
@@ -136,7 +167,7 @@
   <p><strong>Recommendation for Policymakers:</strong> Create regulations for ethical use of image recognition technologies, addressing privacy and bias issues, and encouraging transparency and unbiased data collection.</p>
 </div>
 
-<div class="industry-application">
+<div id ="industry-app" class="content-section">
   <h3>Industry Applications of Vision Transformers</h3>
 
   <p><strong>Real-World Problem/Scenario:</strong></p>
@@ -158,32 +189,34 @@
   </ul>
 </div>
 
-<div class="follow-up-research">
+<div id ="followup" class="content-section">
   <h3>Proposed Follow-Up Research</h3>
       <p>We can research on efficiency of transformers by incorporating changes to the attention mechanisms, normalization layers, and positional encodings. Also, further research can be done on improving the efficiency by reducing the computational cost of self-supervised learning for ViTs.</p>
 </div>
 
 
+<div id ="references" class="content-section">
+  <h3>References</h3>
 
-<h3>References</h3>
+  <p><a name="vaswani-2017">[1]</a> <a href="https://arxiv.org/pdf/1706.03762.pdf"
+    >Transformers for NLP by Vaswani et al.
+    </a>
+    Attention Is All You Need (2017).
+  </p>
 
-<p><a name="vaswani-2017">[1]</a> <a href="https://arxiv.org/pdf/1706.03762.pdf"
-  >Transformers for NLP by Vaswani et al.
-  </a>
-  Attention Is All You Need (2017).
-</p>
+  <p><a name="devlin-2019">[2]</a> <a href="https://aclanthology.org/N19-1423.pdf"
+    >BERT: 
+    </a>
+    Pre-training of Deep Bidirectional Transformers for
+    Language Understanding (2017).
+  </p>
+</div>
 
-<p><a name="devlin-2019">[2]</a> <a href="https://aclanthology.org/N19-1423.pdf"
-  >BERT: 
-  </a>
-  Pre-training of Deep Bidirectional Transformers for
-  Language Understanding (2017).
-</p>
 
-<h2>Team Members</h2>
-                                                   
-<p>Debankita Basu</p>
-<p>Sravani Namburu</p>
+  <h2>Team Members</h2>
+                                                    
+  <p>Debankita Basu</p>
+  <p>Sravani Namburu</p>
 
   
 </div><!--col-->
@@ -199,6 +232,11 @@
 </footer>
 
 </body>
+<style>
+  html {
+      scroll-behavior: smooth;
+  }
+</style>
 <script>
 $(document).on('click', '.clickselect', function(ev) {
   var range = document.createRange();
