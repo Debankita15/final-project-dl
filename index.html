@@ -250,16 +250,56 @@
     </ul>
 
     <p> <strong>Sravani Namburu</strong></p>
-    <p><strong>Pros:</strong></p>
+    <p><strong>Summary:</strong></p>
+    <p>The paper introduces Vision Transformer (ViT), similar to transformer for Natural language processing tasks. It processes the images by diving the image into patches, similar to tokens in NLP tasks.</p>
+  
+    <p><strong>Strengths and Weaknesses:</strong></p>
+    <p><strong>Originality:</strong></p>
     <ul>
-      <li>Background and the realted work was clearly mentioned and easy to understand.</li>
-      <li>Extensive experiements and analysis to validate the proposed approach.</li>
+      <li><strong>Strength:</strong> The strength lies in the idea of applying the Transformer architecture, originally prominent in NLP tasks, to the domain of image recognition.</li>
+      <li><strong>Weakness:</strong> No in-depth analysis on Inductive Bias and how hte model generalizes to various type sof images, different datasets.</li>
+    </ul>
+    
+    <p><strong>Quality:</strong></p>
+    <ul>
+      <li><strong>Strength:</strong> Technically strong and promising performance results</li>
+      <li><strong>Weakness:</strong> Lack of in-depth examination of learned representations.</li>
+    </ul>
+  
+    <p><strong>Clarity:</strong></p>
+    <ul>
+      <li><strong>Strength:</strong> Evaluation is very-well presented.</li>
+      <li><strong>Weakness:</strong> More work on self-supervised learning would have been appreciated.</li>
+    </ul>
+  
+    <p><strong>Significance:</strong></p>
+    <ul>
+      <li><strong>Strength:</strong> The significant exploration of transformers in image recognition tasks, led to many further research opportunities, emphasizing its substantial strength in advancing the field.</li>
+      <li><strong>Weakness:</strong> The study clearly indicates that the performance of transformer increaes with the dataset size. But, there might be some situations where data required could be very sparse. </li>
+    </ul>
+  
+    <p><strong>Questions and Suggestions:</strong></p>
+    <ul>
+      <li>Will there be any saturating point for scaling the transformers?</li>
+      <li>Instead of treating image like a sentence, by dividing the image into patches, can we implement transformer based models on a whole image?</li>
+    </ul>
+  
+    <p><strong>Limitations and Societal Impact:</strong></p>
+    <p>Data set size required could be one of the limitations.</p>
+    <p>Apart from limitations, this paper led to have positive societal imapct, leading to further improvements in image recognition like, facial recognition and medical image analysis.</p>
+
+    <p><strong>Ethical Concerns:</strong></p>
+    <p>Privacy violations, and potential misuse of this technology like DeepFake or manipulating information.</p>
+  
+    <p><strong>Ratings:</strong></p>
+    <ul>
+      <li><strong>Soundness:</strong> 4 - Well-supported claims, well-designed methodology, experiments and robust results.</li>
+      <li><strong>Presentation:</strong> 3 - Clear and mostly well-organized, with minor issues with clarity.</li>
+      <li><strong>Contribution:</strong> 4 - Significant and impactful contribution to the field, presenting new perspectives.</li>
+      <li><strong>Confidence:</strong> 3 - Overall confidence is reasonable, with some uncertainities about certain aspects of the paper.</li>
+      <li><strong>Overall Score:</strong> 8 - Technically solid, high-impact paper with good evaluation.</li>
     </ul>
 
-    <p><strong>Cons:</strong></p>
-    <ul>
-      <li>Gave a brief idea about 'Inductive Bias' but no further analysis on this. Also, further explanation on translation equivariance and locality would have helped for better understanding.</li>
-    </ul>
   </div>
   
   
