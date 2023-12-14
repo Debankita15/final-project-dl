@@ -13,10 +13,6 @@ body, td, th {
   color:rgba(8, 10, 13, 0.815)
 }
 
-.sample{
-  
-}
-
 h2 {
   margin-top: 3ex;
   font-size: 1.5rem; 
@@ -126,4 +122,16 @@ nobr.widenobr {
 .navbar {
   background-color: #f8f9fa; /* Example color */
 }
+.nd-pagefooter {
+  width: 100%;
+}
+
+.nd-pagefooter .row {
+  width: 100%;
+}
+
+.nd-pagefooter .col-12 {
+  width: 100%;
+}
+
 
