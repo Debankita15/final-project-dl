@@ -172,17 +172,17 @@
 <div id="diagram-section" class="content-section">
   <h3>Diagrams</h3>
   <div class="diagram">
-      <img src="vit_architecture.jpg" alt="Diagram 1" class="diagram-image">
+      <img src="photos/vit_architecture.jpg" alt="Diagram 1" class="diagram-image">
       <p class="diagram-description">Description of Diagram 1: The model, shown here, simplifies handling 2D images for the Transformer, originally designed for 1D data. Images are split into fixed-size patches, linearly embed each of them, add position embeddings and feed the resulting sequence of vectors to a standard Transformer. A special token, similar to BERT's [class] token, is added to this sequence, as an extra learnable 'classification token' to the sequence. The model uses learnable position embeddings to maintain spatial information. The architecture includes layers of self-attention and MLP blocks, with specific norms and residual connections for effective learning. Unlike CNNs, the Vision Transformer has less image-specific structure, learning spatial relationships from scratch, with only minimal use of the two-dimensional structure. </p>
   </div>
 
   <div class="diagram">
-      <img src="vitperformance.png" alt="Diagram 2" class="diagram-image">
+      <img src="photos/vitperformance.png" alt="Diagram 2" class="diagram-image">
       <p class="diagram-description">Description of Diagram 2: The Vision Transformer (ViT) shows improved performance with larger datasets. While larger ViT models underperform on smaller datasets like ImageNet, they excel with larger datasets like JFT-300M. In contrast, traditional convolutional models like ResNets perform better on smaller datasets. This suggests that ViT models are more suitable for scenarios with access to large amounts of data, while conventional models may be preferable for smaller datasets.</p>
   </div>
   
   <div class="diagram">
-    <img src="process.png" alt="Diagram 2" class="diagram-image">
+    <img src="photos/process.png" alt="Diagram 2" class="diagram-image">
     <p class="diagram-description">Description of Diagram 3: The left figure illustrates the linear embeddings of RGB values, resembling the kernels learned by CNNs. In the center, the figure displays the appearance of 1D positional embeddings post the model's pre-training. This depiction showcases the model's ability to encode distance within the image, as closer patches exhibit simialr position embeddings. As for the figure on the right, it represents the analysis of the large variant model with different attention heads - specifically, a model consisting of 24 layers and 16 attention heads. Generally, an increase in attention heads leads to greater network depth. The graph demonstrates that, in transformers, even in the shallower layers, attention spans globally, contrary to CNNs where attention transitions from local to global as depth increases.</p>
   </div>
 
