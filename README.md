@@ -1,4 +1,4 @@
-                                                             An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
+An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
 
 
 We were first introduced to the concept of transformers in the field of natural language processing through Vaswani's paper [1]. During the discussion of the CLIP paper by Alec Radford and his team [2], we gained a deeper understanding of visual transformers used for image recognition. Our curiosity about the transition from NLP-based transformers to visual transformers motivated us to explore related research papers, ultimately leading us to choose this paper as the focus of our project. This aligns directly with our research interests and goals because it empowers us to explore the convergence of different data types and the development of multi-modal models, which are central to our current initiatives.
