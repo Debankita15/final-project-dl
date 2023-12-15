@@ -7,5 +7,7 @@ Significance: The paper "An Image is Worth 16x16 Words: Transformers for Image R
 
 
 [1] Vaswani (2017), Attention Is All You Need
+
 [2] Radford (2021), Learning Transferable Visual Models From Natural Language Supervision
+
 [3] Dosovitskiy (2021), An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
