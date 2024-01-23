@@ -5,6 +5,7 @@ We were first introduced to the concept of transformers in the field of natural 
 
 Significance: The paper "An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale" [3] is significant for revolutionizing computer vision by applying the transformer architecture, originally designed for natural language processing, to image recognition tasks. This approach, known as Vision Transformer (ViT), achieves competitive or superior performance on various image classification tasks, showcasing the versatility and scalability of transformers in different domains beyond text processing. The success of ViT model in computer vision also led to the broader exploration for integrating different modalities into a single unified model called Multimodal Model.
 
+Link for the documentation on analysis: https://expo.baulab.info/2023-Fall/Debankita15/
 
 [1] Vaswani (2017), Attention Is All You Need
 
